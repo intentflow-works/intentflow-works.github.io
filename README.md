@@ -5,12 +5,11 @@ This repository hosts the static product website for Yiyu Doll Closet on GitHub 
 Universal Links path:
 
 ```text
-https://amumu96.github.io/app/
+https://intentflow-works.github.io/app/
 ```
 
 Associated Domains entitlement:
 
 ```text
-applinks:amumu96.github.io
+applinks:intentflow-works.github.io
 ```
-
