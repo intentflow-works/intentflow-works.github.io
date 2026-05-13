@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>衣隅娃柜 | 娃娃衣橱与试穿搭配工具</title>
+    <meta
+      name="description"
+      content="衣隅娃柜是一款面向娃娃收藏与娃衣搭配场景的移动应用，支持拍照生成贴纸、衣柜收纳、云端同步与试穿搭配。"
+    >
+    <link rel="canonical" href="https://amumu96.github.io/">
+    <meta property="og:title" content="衣隅娃柜">
+    <meta property="og:description" content="给娃娃、娃衣、鞋包与配件准备的柔软数字衣柜。">
+    <meta property="og:url" content="https://amumu96.github.io/">
+    <meta property="og:image" content="https://amumu96.github.io/assets/yiyu-doll-closet-icon.png">
+    <link rel="icon" href="assets/yiyu-doll-closet-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="top-nav" data-nav>
+      <a class="brand" href="#top" aria-label="衣隅娃柜首页">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>衣隅娃柜</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false" style="display: inline-flex" data-nav-toggle>
+        <span class="menu-glyph" aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="nav-menu" aria-label="主导航" data-nav-menu>
+        <a href="#features">功能</a>
+        <a href="#workflow">体验</a>
+        <a href="#download">下载</a>
+        <a href="#privacy">隐私</a>
+        <a href="#support">联系</a>
+      </nav>
+
+      <a class="nav-cta" href="#download">即将推出</a>
+    </header>
+
+    <main id="top">
+      <section class="hero-band" aria-labelledby="hero-title">
+        <img class="hero-art" src="assets/yiyu-doll-closet-icon.png" alt="衣隅娃柜应用图标">
+        <div class="container hero-content">
+          <p class="badge-coral">MOBILE APP</p>
+          <h1 id="hero-title">衣隅娃柜</h1>
+          <p class="hero-copy">
+            给娃娃、娃衣、鞋包与配件准备的数字衣柜。<br>
+            拍照生成贴纸，按比例与分组整理收藏，<br>
+            再把素材带进试穿搭配里。
+          </p>
+          <div class="button-row">
+            <a class="button-primary" href="#workflow">探索核心体验</a>
+            <a class="button-secondary" href="#download">应用下载</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section" aria-labelledby="intro-title">
+        <div class="container intro-grid">
+          <div>
+            <p class="section-kicker">APP PROFILE</p>
+            <h2 id="intro-title">从拍照到收纳，围绕娃娃搭配的一条安静工作流。</h2>
+          </div>
+          <p class="intro-copy">
+            衣隅娃柜面向娃娃玩家的日常收藏管理场景。它把娃娃、娃衣、鞋履、包袋和小配件变成可检索、可同步、可搭配的个人素材库，减少翻相册和重复记录的成本。
+          </p>
+        </div>
+      </section>
+
+      <section class="feature-section" id="features" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">FEATURES</p>
+            <h2 id="features-title">衣柜里每一件小物，都有它的位置。</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon">01</span>
+              <h3>拍照生成贴纸</h3>
+              <p>使用相机或相册导入娃娃、服饰、鞋包与配件图片，生成更适合收纳和搭配的透明贴纸。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">02</span>
+              <h3>AI 辅助整理</h3>
+              <p>自动建议分类、比例、标签和简短备注，帮助素材进入正确分组，后续检索也更轻松。</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon">03</span>
+              <h3>云端衣柜同步</h3>
+              <p>账号登录后同步分组、收藏、图片资产与使用状态，让个人衣柜在设备之间保持一致。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-section" id="workflow" aria-labelledby="workflow-title">
+        <div class="container product-grid">
+          <div class="product-copy">
+            <p class="section-kicker on-dark">PRODUCT EXPERIENCE</p>
+            <h2 id="workflow-title">把零散素材，整理成真正好用的娃娃衣柜。</h2>
+            <p>
+              衣隅娃柜不是单纯的相册，也不是只看数量的收藏清单。它把拍摄、识别、收纳、检索和搭配串成一条轻巧的日常路径，让每一次搭配都有资料可循。
+            </p>
+            <a class="button-secondary-on-dark" href="#features">查看功能</a>
+          </div>
+
+          <div class="code-window-card" aria-label="衣隅娃柜产品体验摘要">
+            <div class="window-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>closet.session</strong>
+            </div>
+            <pre><code>closet.add("海军领套装")
+  .kind("娃衣")
+  .scale("1/6")
+  .tags(["制服", "深蓝", "春日"])
+  .saveTo("日常通学")
+
+tryOn.with("小樱")
+  .wear("海军领套装")
+  .pose("standing")
+  .preview()</code></pre>
+            <div class="mockup-stack">
+              <article>
+                <span>今日整理</span>
+                <strong>12 件新贴纸</strong>
+                <p>娃衣、鞋包、发饰自动归档</p>
+              </article>
+              <article>
+                <span>搭配灵感</span>
+                <strong>3 组候选</strong>
+                <p>按娃娃比例筛出可用素材</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section" id="download" aria-labelledby="download-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">DOWNLOAD</p>
+            <h2 id="download-title">我们正在打磨第一个公开版本。</h2>
+          </div>
+
+          <div class="status-grid">
+            <article class="status-card">
+              <p class="badge-pill">iOS</p>
+              <h3>即将开放内测</h3>
+              <p>衣隅娃柜将优先面向 iPhone 用户开放测试，正式上架后会在这里提供 App Store 下载入口。</p>
+            </article>
+            <article class="status-card featured">
+              <p class="badge-pill dark">For collectors</p>
+              <h3>为娃娃玩家做的衣柜</h3>
+              <p>围绕娃娃、娃衣、鞋履、包袋、配件与试穿灵感组织信息，而不是套用通用相册或表格。</p>
+            </article>
+            <article class="status-card">
+              <p class="badge-pill">Roadmap</p>
+              <h3>持续扩展搭配能力</h3>
+              <p>后续会继续完善素材识别、比例匹配、云端同步和试穿预览，让衣柜越来越懂你的收藏习惯。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section" id="privacy" aria-labelledby="privacy-title">
+        <div class="container privacy-grid">
+          <div>
+            <p class="section-kicker">PRIVACY</p>
+            <h2 id="privacy-title">围绕个人衣柜数据设计。</h2>
+          </div>
+          <div class="privacy-list">
+            <article>
+              <h3>账号信息</h3>
+              <p>账号用于保存个人衣柜、同步素材和延续不同设备上的使用状态。</p>
+            </article>
+            <article>
+              <h3>图片素材</h3>
+              <p>用户上传的娃娃、服饰、鞋包与配件图片仅用于个人收藏、贴纸生成与试穿搭配。</p>
+            </article>
+            <article>
+              <h3>个人掌控</h3>
+              <p>你可以在应用内编辑、移动或删除收藏素材。正式发布时，官网会同步完整隐私政策与用户协议。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band" id="support" aria-labelledby="support-title">
+        <div class="container cta-content">
+          <div>
+            <p class="section-kicker on-coral">SUPPORT</p>
+            <h2 id="support-title">想把娃娃衣柜做得更顺手，我们会慢慢听。</h2>
+          </div>
+          <p>
+            如果你也在整理娃娃、娃衣和搭配灵感，欢迎把真实使用场景、想要的分类方式和试穿需求告诉我们。正式发布后，这里会开放反馈入口与支持邮箱。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <span class="brand-mark footer-mark" aria-hidden="true"></span>
+          <strong>衣隅娃柜</strong>
+          <p>Yiyu Doll Closet</p>
+        </div>
+        <div>
+          <h2>应用</h2>
+          <a href="#features">功能介绍</a>
+          <a href="#workflow">产品体验</a>
+          <a href="#download">下载计划</a>
+        </div>
+        <div>
+          <h2>支持</h2>
+          <a href="#privacy">隐私说明</a>
+          <a href="#support">联系方式</a>
+          <a href="#download">版本动态</a>
+        </div>
+        <p class="copyright">© 2026 衣隅娃柜. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
