@@ -3,10 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appID": "VL7VMT25N8.com.didilose.DollCloset",
+        "appID": "VL7VMT25N8.works.intentflow.dollcloset",
         "paths": ["/app/*"]
       }
     ]
   }
 }
-
