@@ -13,3 +13,9 @@ Associated Domains entitlement:
 ```text
 applinks:intentflow-works.github.io
 ```
+
+Current iOS app identifier:
+
+```text
+K68HRQBVBR.com.amumu.closet
+```
