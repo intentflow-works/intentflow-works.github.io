@@ -4,11 +4,19 @@
     "details": [
       {
         "appID": "K68HRQBVBR.com.amumu.closet",
-        "paths": ["/app/", "/app/*", "/qq_conn/1904846938", "/qq_conn/1904846938/*"]
+        "paths": [
+          "NOT /qq_conn/1904846938/com.amumu.closet.dev/*",
+          "/app/", "/app/*",
+          "/qq_conn/1904846938", "/qq_conn/1904846938/*"
+        ]
       },
       {
         "appID": "K68HRQBVBR.com.amumu.closet.dev",
-        "paths": ["/app-dev/", "/app-dev/*"]
+        "paths": [
+          "/app-dev/", "/app-dev/*",
+          "/qq_conn/1904846938/com.amumu.closet.dev",
+          "/qq_conn/1904846938/com.amumu.closet.dev/*"
+        ]
       }
     ]
   }
