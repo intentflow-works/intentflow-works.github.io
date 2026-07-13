@@ -5,6 +5,10 @@
       {
         "appID": "K68HRQBVBR.com.amumu.closet",
         "paths": ["/app/", "/app/*", "/qq_conn/1904846938", "/qq_conn/1904846938/*"]
+      },
+      {
+        "appID": "K68HRQBVBR.com.amumu.closet.dev",
+        "paths": ["/app-dev/", "/app-dev/*"]
       }
     ]
   }
